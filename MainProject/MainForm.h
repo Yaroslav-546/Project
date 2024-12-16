@@ -264,6 +264,7 @@ namespace MainProject {
 			//{
 			//	//Delete
 			//} и тд
+
 		}
 private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 }
