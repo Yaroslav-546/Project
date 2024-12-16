@@ -1,3 +1,0 @@
-C:\Users\mindi\Downloads\Project-master\Project-master\MainProject\x64\Debug\MainProject.vcxproj.AssemblyReference.cache
-C:\Users\mindi\Downloads\Project-master\Project-master\MainProject\x64\Debug\MainProject.MainForm.resources
-C:\Users\mindi\Downloads\Project-master\Project-master\MainProject\x64\Debug\MainProject.vcxproj.GenerateResource.cache
