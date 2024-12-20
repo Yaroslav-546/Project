@@ -1,0 +1,1 @@
+Get-AppxPackage -allusers *Microsoft.Windows.FeedBackHub* | Remove-AppxPackage

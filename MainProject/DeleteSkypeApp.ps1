@@ -1,0 +1,1 @@
+Get-AppxPackage -allusers *Microsoft.SkypeApp* | Remove-AppxPackage
