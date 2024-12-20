@@ -2,6 +2,8 @@
 
 namespace MainProject {
 
+	#include <stdlib.h>
+
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -42,7 +44,7 @@ namespace MainProject {
 	private: System::Windows::Forms::CheckedListBox^ checkedListBox1;
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::Panel^ panel1;
-	private: bool open = false;
+	private: bool _open = false;
 	private: System::Windows::Forms::Button^ button3;
 	private: System::Windows::Forms::Label^ label3;
 	protected:
@@ -211,29 +213,33 @@ namespace MainProject {
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
 		{
 
-			if (!open) 
+			if (!_open) 
 			{
 				this->checkedListBox1->Visible = true;
-				open = true;
+				_open = true;
 			}
 
 			else
 			{
 				this->checkedListBox1->Visible = false;
-				open = false;
+				_open = false;
 			}
 		}
 
 		private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) 
 		{
-			//if (this->checkedListBox1->GetItemChecked(0)) элемент выпадащего списка
-			//{
-			//	//Delete
-			//}
-			//if (this->checkedListBox1->GetItemChecked(1))
-			//{
-			//	//Delete
-			//}
+			if (this->checkedListBox1->GetItemChecked(0)) /*элемент выпадащего списка*/
+			{
+				system("powershell -f g.ps1");
+			}
+			if (this->checkedListBox1->GetItemChecked(1))
+			{
+                system("start powershell.exe -f ..\\MainProject\\file.ps1");
+			}
+			if (this->checkedListBox1->GetItemChecked(8)) /*элемент выпадащего списка*/
+			{
+				system("start powershell.exe Remove-AppxPackage Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe");
+			}
 			//if (this->checkedListBox1->GetItemChecked(2))
 			//{
 			//	//Delete
