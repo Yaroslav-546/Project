@@ -1,1 +1,0 @@
-Get-AppxPackage -allusers *Microsoft.XboxApp* | Remove-AppxPackage

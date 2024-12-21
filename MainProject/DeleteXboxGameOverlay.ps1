@@ -1,1 +1,0 @@
-Get-AppxPackage -allusers *Microsoft.XboxGameOverlay* | Remove-AppxPackage
