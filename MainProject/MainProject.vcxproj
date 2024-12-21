@@ -83,6 +83,7 @@
       <AdditionalDependencies />
       <EntryPointSymbol>main</EntryPointSymbol>
       <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -131,6 +132,32 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DeleteBingWeather.ps1" />
+    <None Include="DeleteCortana.ps1" />
+    <None Include="DeleteFeedBackHub.ps1" />
+    <None Include="DeleteGetHelp.ps1" />
+    <None Include="DeleteMicrosoftOneNote.ps1" />
+    <None Include="DeleteMixedReality.Portal.ps1" />
+    <None Include="DeleteMSPaint.ps1" />
+    <None Include="DeleteOneNote.ps1" />
+    <None Include="DeleteParentalControl.ps1" />
+    <None Include="DeletePeople.ps1" />
+    <None Include="DeletePeopleExperienceHost.ps1" />
+    <None Include="DeleteSkypeApp.ps1" />
+    <None Include="DeleteSolitareCollection.ps1" />
+    <None Include="DeleteStickyNotes.ps1" />
+    <None Include="DeleteWindowsMaps.ps1" />
+    <None Include="DeleteXboxApp.ps1" />
+    <None Include="DeleteXboxGameOverlay.ps1" />
+    <None Include="DeleteXboxGameCallableUI.ps1" />
+    <None Include="DeleteXboxGamingOverlay.ps1" />
+    <None Include="DeleteXboxSpeechToTextOverlay.ps1" />
+    <None Include="DeleteXbox.TCUI.ps1" />
+    <None Include="DeleteYandex.Music.ps1" />
+    <None Include="DeleteZuneMusic.ps1" />
+    <None Include="DeleteTest.ps1" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

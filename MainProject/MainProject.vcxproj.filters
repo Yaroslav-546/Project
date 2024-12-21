@@ -24,4 +24,78 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DeleteYandex.Music.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteZuneMusic.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteTest.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXboxApp.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXboxGamingOverlay.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXbox.TCUI.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXboxSpeechToTextOverlay.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXboxGameCallableUI.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteXboxGameOverlay.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeletePeople.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteSkypeApp.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteGetHelp.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteStickyNotes.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteMixedReality.Portal.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteBingWeather.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteWindowsMaps.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteMSPaint.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteMicrosoftOneNote.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteCortana.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteParentalControl.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeletePeopleExperienceHost.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteOneNote.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteFeedBackHub.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DeleteSolitareCollection.ps1">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
 </Project>

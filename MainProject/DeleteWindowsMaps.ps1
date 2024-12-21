@@ -1,0 +1,1 @@
+Get-AppxPackage -allusers *Microsoft.WindowsMaps* | Remove-AppxPackage
